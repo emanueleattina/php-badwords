@@ -7,7 +7,8 @@ $replacement = $argv[1];
 
 $testo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis est a maximus aliquet. Nunc aliquam fringilla pulvinar. Sed aliquam mattis dolor sed hendrerit.';
 
+echo "\r\n" . 'Stringa originale: ' . $testo;
 echo "\r\n" . 'Lunghezza stringa: ' . strlen($testo);
-echo "\r\n" . str_replace($replacement, '***', $testo);
+echo "\r\n" . 'Stringa modificata: ' . str_replace($replacement, '***', $testo);
 // echo "\r\n" . $testo;
 ?>
